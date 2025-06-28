@@ -19,9 +19,9 @@ casm = true
 [lib]
 
 [dependencies]
-starknet = "2.10.1"
-openzeppelin_introspection = "1.0.0"
-openzeppelin_token = "1.0.0"
+starknet = "2.11.4"
+openzeppelin_introspection = "2.0.0"
+openzeppelin_token = "2.0.0"
 
 [dev-dependencies]
 snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.44.0" }
