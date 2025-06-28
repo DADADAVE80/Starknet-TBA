@@ -12,9 +12,6 @@ cairo_version = "2.8.2"
 homepage = "https://www.tbaexplorer.com/"
 documentation = "https://github.com/horuslabsio/TBA-SDK"
 
-
-# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
-
 [[target.starknet-contract]]
 sierra = true
 casm = true
@@ -31,3 +28,6 @@ snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag 
 
 [tool.snforge]
 # exit_first = true
+
+[scripts]
+test = "snforge test"
